@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SwiftKeychainWrapper-Swift.h</key>
 		<data>
-		NG+2S5ccpRMF0XTvp091lsI6B+4=
+		Me+TMo95Qm2yciS1wVEyUcRGRpw=
 		</data>
 		<key>Headers/SwiftKeychainWrapper-umbrella.h</key>
 		<data>
@@ -18,15 +18,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OR+DlXVCl8etmrQtcQt8GiLYEOg=
+		BMvIC+sX1g1/7z7AIXZix+xKp4A=
+		</data>
+		<key>Modules/SwiftKeychainWrapper.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		DNDWNXIXPC6r9+GB56/JAeTqopI=
+		</data>
+		<key>Modules/SwiftKeychainWrapper.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		QNC9ALdUSyMIGrJF0PSnp66F+3Y=
 		</data>
 		<key>Modules/SwiftKeychainWrapper.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		E4pfzc/zuWI65wXcfajG4oXcuIA=
+		DNDWNXIXPC6r9+GB56/JAeTqopI=
 		</data>
 		<key>Modules/SwiftKeychainWrapper.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		VIxQkYIRzP5lX2pe+ZIWtZJrjeY=
+		QNC9ALdUSyMIGrJF0PSnp66F+3Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -39,11 +47,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NG+2S5ccpRMF0XTvp091lsI6B+4=
+			Me+TMo95Qm2yciS1wVEyUcRGRpw=
 			</data>
 			<key>hash2</key>
 			<data>
-			8MDb4OYo1twjz7Bnenv+zRpFiZqQ/mNJxgRJ6NBYTy4=
+			a0tl+LW4wNBiX0iwHWvtdD01a7NCIdc7cdc1oz+94p8=
 			</data>
 		</dict>
 		<key>Headers/SwiftKeychainWrapper-umbrella.h</key>
@@ -68,26 +76,48 @@
 			OJuB9uhOdxDzTf+XNUcWB3qV6fk8ekZpXZrzgW74IJ4=
 			</data>
 		</dict>
+		<key>Modules/SwiftKeychainWrapper.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DNDWNXIXPC6r9+GB56/JAeTqopI=
+			</data>
+			<key>hash2</key>
+			<data>
+			GjqhQqUyShuf3RnS71+VTZQibZtMQ4TtYmNPmozUo0w=
+			</data>
+		</dict>
+		<key>Modules/SwiftKeychainWrapper.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QNC9ALdUSyMIGrJF0PSnp66F+3Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			Czm4uWo4BpKK6bIbrXqEMhsgQXp915nzftKejRrPDt8=
+			</data>
+		</dict>
 		<key>Modules/SwiftKeychainWrapper.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			E4pfzc/zuWI65wXcfajG4oXcuIA=
+			DNDWNXIXPC6r9+GB56/JAeTqopI=
 			</data>
 			<key>hash2</key>
 			<data>
-			LHh6a1vgvI36ybxjhZ8hsFIAiBw0IqVYsv75QK4KHao=
+			GjqhQqUyShuf3RnS71+VTZQibZtMQ4TtYmNPmozUo0w=
 			</data>
 		</dict>
 		<key>Modules/SwiftKeychainWrapper.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VIxQkYIRzP5lX2pe+ZIWtZJrjeY=
+			QNC9ALdUSyMIGrJF0PSnp66F+3Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			66OE2an5sUd1sjNz0rVXyRGuEbQ068JHGD12Kb3QKyw=
+			Czm4uWo4BpKK6bIbrXqEMhsgQXp915nzftKejRrPDt8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -104,7 +134,7 @@
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -135,24 +165,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -188,13 +206,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>

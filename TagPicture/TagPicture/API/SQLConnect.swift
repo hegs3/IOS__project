@@ -9,7 +9,7 @@
 import Foundation
 
 class SQLConnect {
-    let URL_TAGPICTURE = "http://127.0.0.1:8080/TagPicture/API/"
+    let URL_TAGPICTURE = "http://hegs3.ipdisk.co.kr:8080/TagPicturePhp/API/"
     
     var tagStore: TagStore!
     
@@ -66,6 +66,7 @@ class SQLConnect {
         let postParameters = "uuid="+uuid+"&cntDate="+cntDate
         request.httpMethod = "POST"
         request.httpBody = postParameters.data(using: String.Encoding.utf8)
+        
 
         let mainQueue = DispatchQueue(label: "mainQ")
         mainQueue.sync {
