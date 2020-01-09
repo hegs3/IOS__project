@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SwiftKeychainWrapper
 
 class MainViewController: UIViewController {
     var photoStore : PhotoStore!

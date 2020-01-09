@@ -1,6 +1,6 @@
-version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
-options: "13d1eaccefde276d236d2cc77c225e8e"
-build_time: [1572158868, 580205000]
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "50d8b8afe2e01ec6b337d50c78ae8917"
+build_time: [1573105344, 609784000]
 inputs:
-  "/Users/jr/Desktop/RealProject/TagPicture/Pods/SwiftKeychainWrapper/SwiftKeychainWrapper/KeychainItemAccessibility.swift": [1558430390, 0]
-  "/Users/jr/Desktop/RealProject/TagPicture/Pods/SwiftKeychainWrapper/SwiftKeychainWrapper/KeychainWrapper.swift": [1558430390, 0]
+  "/Users/jr/Desktop/IOS__project/TagPicture/Pods/SwiftKeychainWrapper/SwiftKeychainWrapper/KeychainItemAccessibility.swift": [1572767870, 633093840]
+  "/Users/jr/Desktop/IOS__project/TagPicture/Pods/SwiftKeychainWrapper/SwiftKeychainWrapper/KeychainWrapper.swift": [1572767870, 632558074]
